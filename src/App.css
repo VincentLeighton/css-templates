@@ -1,0 +1,102 @@
+.App-header {
+  text-align: center;
+  /* Why is grey darker that darkgrey? */
+  background-color: grey;
+}
+
+.App-body {
+  border-style: solid;
+  border-radius: 1px;
+  border-color: black;
+  min-height: 96vh;
+  background-color: darkgrey;
+  padding: 5px 5px;
+}
+
+.layout-child {
+  border-style: solid;
+  border-radius: 1px;
+  border-color: black;
+}
+
+.hotdog-layout {
+  border-style: solid;
+  border-radius: 1px;
+  border-color: darkslateblue;
+  min-height: inherit;
+  background-color: white;
+  padding: 5px 5px;
+  text-indent: 5px;
+
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 5px;
+}
+
+.hamburger-layout {
+  border-style: solid;
+  border-radius: 1px;
+  border-color: darkslateblue;
+  min-height: inherit;
+  background-color: white;
+  padding: 5px 5px;
+  text-indent: 5px;
+
+  display: grid;
+  grid-template-rows: auto auto;
+  row-gap: 5px;
+}
+
+.twothird-onethird-layout {
+  border-style: solid;
+  border-radius: 1px;
+  border-color: darkslateblue;
+  min-height: inherit;
+  background-color: white;
+  padding: 5px 5px;
+  text-indent: 5px;
+
+  display: grid;
+  grid-template-columns: 66% 33%;
+  column-gap: 5px;
+}
+
+.oneandtwo-layout {
+  border-style: solid;
+  border-radius: 1px;
+  border-color: darkslateblue;
+  min-height: inherit;
+  background-color: white;
+  padding: 5px 5px;
+  text-indent: 5px;
+
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 5px;
+}
+
+.oneandtwo-child {
+  display: grid;
+  grid-template-rows: auto auto;
+  row-gap: 5px;
+}
+
+.quarters-layout {
+  border-style: solid;
+  border-radius: 1px;
+  border-color: darkslateblue;
+  min-height: inherit;
+  background-color: white;
+  padding: 5px 5px;
+  text-indent: 5px;
+
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 5px;
+}
+
+.quarters-child {
+  display: grid;
+  grid-template-rows: auto auto;
+  row-gap: 5px;
+}
